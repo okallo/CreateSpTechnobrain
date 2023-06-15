@@ -1,0 +1,5 @@
+DROP PROCEDURE IF EXISTS DeleteEmployee;
+CREATE PROCEDURE DeleteEmployee(IN empID INT)
+BEGIN
+    DELETE FROM employees WHERE id = empID;
+END;
