@@ -1,4 +1,5 @@
 # CreateSpTechnobrain
+
 create sp and test it.
 project is made in dotnet6 codefirst approach and it's a dotnet cli project(I am currently using linux for development)
 
@@ -10,3 +11,6 @@ When testing ensure you run the console app first then the nunit testing app nex
 Edit the test cases as required.
 
 
+To run createSpProject navigate to its particular project directory and open terminal and type "dotnet run".
+
+To run the tests navigate out of the CreateSpProject and type "dotnet run"
